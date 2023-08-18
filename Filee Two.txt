@@ -3,3 +3,57 @@ Filee Updated New Changes are here:)
 checking diff🙄
 
 Contributer : I Create Changes in this file because bluee can check a pull command !
+.list{
+
+  margin-top: 8px;
+  
+}
+
+.list > li{
+  height:35px;
+  width:97%;
+  background-color:#fed32e;
+  list-style-type:none;
+  margin:  auto ;
+  border-radius: 4px;
+  display: flex ;
+  justify-content:  space-between;
+  align-items: center;
+  margin-top: 12px;
+ 
+}
+.list > li>span{
+
+  /* right:0%; */
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+{/* for Title */}
+<div className='title'>
+<h1>TO DO LIST</h1>
+</div>
+
+
+{/* For Input */}
+<div className='input'>
+    <input type="text" name="text" id="text" placeholder='Add New Task...' />
+    <span style={{fontSize:"35px", cursor:"pointer"}}><FontAwesomeIcon icon={faSquarePlus} /></span>
+</div>
+
+
+{/* for list */}
+<div className='list'>
+
+ <li >Hellooooooo <span><FontAwesomeIcon icon={faTrash} style={{color: "#ff0a0a",}} /></span></li>
+
+</div>
